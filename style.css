@@ -16,6 +16,7 @@ body{
     background-image:url("bg.jpg")  ;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 
 }
 .container{
@@ -139,7 +140,30 @@ button:hover{
         margin-left: 10%;
     }
 }
-
+  .scroll4::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+    
+  }
+   
+  .scroll4::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 30px;
+  }
+  
+  .carousel-control-next{
+      width:40px ;
+      color: #152238;
+  }
+  .carousel-control-prev{
+      width: 40px;
+      color: #152238;
+  }
+  .scroll4::-webkit-scrollbar-track {
+    background: #152238
+    border-radius: 30px;
+  }
+  
 
 .hw{
     overflow-y: scroll;
