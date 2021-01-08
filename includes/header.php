@@ -87,9 +87,9 @@
      
       </ul>
       <div class="nav-item dd px-3 hide" style="margin-left: auto;">
-        <a href="#" class="social-item co"><i class="fab fa-facebook"></i></a>
-        <a href="#" class="social-item co"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="social-item co"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-item co mx-1"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-item co "><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-item co mx-1"><i class="fab fa-instagram"></i></a>
         <a href="#" class="social-item co"><i class="fab fa-pinterest"></i></a>
       </div>
     </div>
