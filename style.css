@@ -11,6 +11,8 @@ a{
 }
 
 
+
+
 body{
     color:#fff!important;
     background-image:url("bg.jpg")  ;
@@ -90,8 +92,10 @@ body{
  
 }
 .dd{
-    color: white;
+    color:#fff;
     background-color: #152238;
+    padding: 0px;
+    padding-left:10px ;
 }
 button:hover{
     background-color: #152238;

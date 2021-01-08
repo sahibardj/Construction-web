@@ -10,6 +10,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
  <link rel="shortcut icon" href="assets/images/fav.jpg">
  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -18,19 +22,24 @@
  <link rel="stylesheet" href="assets/css/animate.css">
  <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
  <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+   <!-- Compiled and minified CSS -->
+
+           
  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+
+
 </head>
 <body>
-  <nav class="navbar navbar-expand nv" >
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="logo.png"> </a>
-  
-      <div style="margin-left: auto;">
-        <ul class="navbar-nav ">
+
+  <nav >
+    <div class="nav-wrapper" style="background-color: #152238; padding-left:2% ; padding-right: 2%;" >
+      <a href="#!" class="brand-logo"><img src="logo.png" ></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+      <ul class="right hide-on-med-and-down">
           <li class="nav-item dropdown " style="margin:0px;">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle dd" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Projects
               </a>
               <div class="dropdown-menu dd"  aria-labelledby="navbarDropdown">
@@ -40,7 +49,7 @@
                 <a class="dropdown-item dd" href="residential.html"   >Residential</a>
               </div>
             </li>
-          <li class="nav-item dropdown mx-3 dd" >
+            <li class="nav-item dropdown mx-3 dd" >
               <a class="nav-link dropdown-toggle dd"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
               About Us
               </a>
@@ -50,12 +59,35 @@
                 <a class="dropdown-item dd" href="quality.html"   >Quality policy</a>
               </div>
             </li>
-            </ul>
-            </div>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo" style="background-color: #152238; ">
+    <li class="nav-item " style="margin:20px;">
+    
+ Projects
+     
+        <a class="dd" href="township.html" style="color: #fff;"   >  Township</a>
+        <a class="dd " href="commercial.html" style="color: #fff;"    >Commercial</a>
+   
+        <a  href="residential.html" style="color: #fff;"   >Residential</a>
+      </div>
+    </li>
+    <li class="nav-item "  style="margin:20px;">
+      
+      About Us
+    
+        <a  href="profile.html " style="color: #fff;"  >Profile</a>
+        <a  href="mission.html" style="color: #fff;"     >Mission & Vision</a>
+        <a href="quality.html"  style="color: #fff;"  >Quality policy</a>
+      </div>
+    </li>
+  </ul>
+          </div>
             
    
     </nav>
-
 
 
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="  background-position: center;
@@ -87,5 +119,14 @@
         <button type="button  " class="bn"    ><a href="contact.html"><i class="fas fa-phone-square-alt"> <b>ENQUIRE</b></i></a></button>
       
             </div>
+
+      
+<script>
+  $(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+</script>
+
+
 </body>
 </html>

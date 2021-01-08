@@ -111,6 +111,9 @@ var tl = new TimelineMax({
     }
 }); 
 
-
+      
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
 
 
